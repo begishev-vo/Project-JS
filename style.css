@@ -1,0 +1,205 @@
+  
+body{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: black;
+}
+  
+  .wrap {
+    height: inherit;;
+    width: inherit;
+    text-align: center;
+    cursor: pointer;
+    background-color: #000;
+}
+
+.albumWrapper {
+    /* width: 100%;
+    text-align: center;
+    display: block;
+    position: absolute;
+    height: 18%;
+    opacity: 0.08;
+    transition: 0.5s opacity; */
+    display: block;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    height: 18%;
+    opacity: 0.08;
+    transition: 0.5s opacity;
+}
+
+    
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.377);
+  }
+  
+  .album:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+.album {
+    /* display: flex;
+    height: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: block; 
+    min-width: 500px;
+    max-width: 90%; */
+
+    height: 80%;
+    margin: 10px auto;
+    overflow: hidden;
+    display: block;
+    min-width: 500px;
+    max-width: 90%;
+}
+
+.albumWrapper:hover {
+    opacity: 1;
+    transition: 0.3s opacity;
+}
+  .imgThumb {
+    height: 100px;
+  }
+
+  .imgThumb:hover {
+    border-color: white;
+    opacity: 1;
+    transition: 0.2s opacity;
+}
+  .imgThumb__img {
+    max-height: 98px;
+  }
+  
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+.albumArrow:active, 
+.albumArrow {
+    outline: none;
+    border-color: transparent;
+}
+
+.albumArrow:hover {
+    opacity: 1;
+    background: rgba(30, 30, 30, 0.4);
+    transition: 0.2s all;
+}
+
+.albumArrow:active {
+    background: rgba(50, 50, 50, 0.4);
+    
+} 
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.img, 
+.albumWrapper {
+  width: 100%;
+  display: block;
+}
+
+.album {
+  height: 80%;
+  
+  overflow: hidden;
+  display: block;
+  min-width: 500px;
+  max-width: 90%;
+}
+
+.albumWrapper:hover {
+  opacity: 1;
+  transition: 0.3s opacity;
+}
+
+.imgThumb {
+  border: 2px solid transparent;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 5px;
+  width: 12%;
+  height: 90%;
+  
+  /* margin: 10px; */
+  opacity: 0.6;
+  transition: 0.2s opacity;
+}
+
+.imgThumb:hover {
+  border-color: white;
+  opacity: 1;
+  transition: 0.2s opacity;
+}
+
+
+.albumArrow {
+  cursor: pointer;
+  height: 100%;
+  width: 7%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  font-size: 5em;
+  background: transparent;
+  color: white;
+  opacity: 0.7;
+  background: transparent;
+  transition: 0.2s all;
+}
+
+.albumArrow:active, 
+.albumArrow {
+  outline: none;
+  border-color: transparent;
+}
+
+.albumArrow:hover {
+  opacity: 1;
+  background: rgba(30, 30, 30, 0.4);
+  transition: 0.2s all;
+}
+
+.albumArrow:active {
+  background: rgba(50, 50, 50, 0.4);
+  
+}
+

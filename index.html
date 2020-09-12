@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+  <div class="container">
+    <div class="wrap">
+        <img id="my-slides__big-picture" src="img/background-1.jfif" height="700px">
+    </div>
+    <a id="prev-btn" class="prev" onclick="changeSlidesPrev()">&#10094;</a>
+    <a id="next-btn" class="next" onclick="changeSlidesNext()">&#10095;</a>
+    <div class="albumWrapper">
+      <div class="album"></div>
+    </div>
+    
+  </div>
+  <template class="galleryItem">
+    <div class="imgThumb">
+      <img class ="imgThumb__img" class ="imgThumb__imgid" width="100%">
+    </div>
+  </template>
+  <script src="code.js"></script>
+</body>
+</html>
