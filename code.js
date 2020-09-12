@@ -6,7 +6,6 @@ var galleryItem = document.querySelector('.galleryItem').content;
 var imgSmall = document.getElementById('imgThumb_imgid');
 
 var currentImageId = 0;// dataset.id   маленькой активной картинки
-
 var imgAll = [
   "img/background-0.jfif", 
   "img/background-1.jfif",
